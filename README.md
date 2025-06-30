@@ -33,7 +33,6 @@ Capture live network packets and identify basic protocols and traffic types usin
 8. ✅ Took screenshots at each step.
 9. ✅ Created this documentation and uploaded to GitHub.
 
----
 
 ## 🔍 Protocols Identified
 
@@ -43,14 +42,22 @@ Capture live network packets and identify basic protocols and traffic types usin
 | DNS | Domain Name System used to resolve domain names to IPs. |
 | TCP  | Transmission Control Protocol for reliable communication. |
 
----
 
-## 📷 Screenshots
-wireshark1.png
-wireshark2.png
+## 🔑 Key Findings
+
+1. **Captured Real-Time Network Traffic**
+   Successfully captured live packets using Wireshark on the Wi-Fi interface during normal web browsing and ping commands.
+
+2. **Identified Core Protocols**
+   Detected and analyzed **HTTP**, **DNS**, and **TCP** protocols using display filters and packet inspection.
+
+3. **Observed Unencrypted HTTP Data**
+   HTTP packets showed plaintext request data, highlighting the risks of using non-HTTPS connections.
+
+4. **Understood Network Behavior and Filtering**
+   Gained hands-on experience with filtering, analyzing handshakes, DNS queries, and understanding how each protocol behaves during transmission.
 
 
----
 
 
 
